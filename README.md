@@ -1,4 +1,4 @@
-procrastinot
+StudyUp
 ============
 
-A chrome extension to ward off procrastination
+A chrome extension to assist with studying and to ward off prorastination.
