@@ -3,11 +3,14 @@
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<form id="localStorageStudy" method="post" action="">
+	<form id="initialForm" method="post" onsubmit="createInput()" action="">
 		<label>Number of hours for which you would like to study</label>
-		<input type="number" name="hoursQ" id="hoursQ" class="stored" min="1" max="20" step="1" value="1"/></br>
+		<input type="number" name="overallHours" id="overallHours" class="stored" min="1" max="20" step="1" value="1"/>
 		<label>Number of courses you would like to study for</label>
-		<input type="number" name="courseNumQ" id="courseNumQ" class="stored" min="1" max="20" step="1" value="1"/></br>
+		<input type="number" name="courseAmount" id="courseAmount" class="stored" min="1" max="20" step="1" value="1"/>
 		<input type="submit" class="submitStudy" value="Submit"/>
+	</form>
+	<form id="hourForm" method="post" onsubmit="calcHours">
+		<label>State the desired time spent working in each class</label>
 	</form>
 </body>

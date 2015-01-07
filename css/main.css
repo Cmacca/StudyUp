@@ -3,3 +3,9 @@ body {
 	margin: 0 auto;
 	padding: 10px;
 }
+input {
+	margin-bottom:5px;
+}
+.submitStudy {
+	margin: 0 0 auto 40% ;
+}
