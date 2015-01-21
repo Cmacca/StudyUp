@@ -16,3 +16,7 @@ input {
 .secondHourForm {
 	display: none;
 }
+
+#result {
+  display: none;
+}

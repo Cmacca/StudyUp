@@ -38,6 +38,12 @@ window.onload = function () {
     result.textContent = inputs
     .map(function(x){return Number(x.value)})
     .reduce(function(x, y){return x + y}, 0)
+
+    var totalHours = result.textContent;
+
+  var totalMinutes = totalHours * 60;
+  alert(totalMinutes);
+
   });
 
 };
